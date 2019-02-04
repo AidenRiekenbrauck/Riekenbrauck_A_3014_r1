@@ -40,7 +40,7 @@ $dayTerm = ($hour > 17) ? "Evening " : ($hour > 12) ? "Afternoon " : "Morning ";
 <body>
 	<header>
 		<div class="appname">User Login System</div>
-		<div class="loggedin">Welcome, <?php echo "Good ".$dayTerm , $_SESSION['first_name']; ?>! <a href="logout.php">Log Out</a></div>
+		<div class="loggedin">Welcome, <?php echo "Good ".$dayTerm , $_SESSION['first_name']; ?>! <a href="../logout.php">Log Out</a></div>
 	</header>
 
 	<main>
